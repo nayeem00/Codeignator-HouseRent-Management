@@ -1,0 +1,99 @@
+body {
+    padding: 0;
+    margin: auto;
+}
+#allpost {
+    position: relative;
+    width: 100%;
+}
+#suggestion_title {
+	text-align:center;
+	background-image: linear-gradient(rgb(20, 151, 119), rgb(16, 132, 111));
+	color:white;
+	height: 46px;
+	padding: 1%;
+}
+
+.radio {
+    background-image: linear-gradient(rgb(20, 151, 119), rgb(16, 132, 111));
+    color: #FFFFFF;
+}
+.custombtn {
+    background-image: linear-gradient(rgb(20, 151, 119), rgb(16, 132, 111));
+    color: #FFFFFF;
+}
+.cutombtn:hover {
+    background-color: #4CAF50;
+    /* Green */
+    
+    color: white;
+}
+.post a {
+    display: block;
+}
+.post td.postimage {
+    padding: 0 !important;
+    width: 200px;
+}
+.post td.postimage img {
+    max-width: 100%;
+    height: 100%;
+    padding: 2%;
+    margin: auto;
+    max-height: 180px;
+}
+body {
+    font-family: "Arial", sans-serif;
+}
+.left_bar {
+    background-color: #FFFFFF;
+    height: 100%;
+    width: 100%;
+    position: relative;
+    z-index: 1;
+}
+.top_bar {
+    background-image: linear-gradient(rgb(20, 151, 119), rgb(16, 132, 111));
+    height: 85px;
+    width: 100%;
+    position: relative;
+    z-index: 1;
+    left: 0;
+    overflow-x: hidden;
+}
+.top_bar_2 {
+    background-color: #FFFFFF;
+    width: 100%;
+    position: relative;
+    z-index: 1;
+    left: 0;
+    overflow-x: hidden;
+}
+#header{
+    background-image: linear-gradient(rgb(20, 151, 119), rgb(16, 132, 111));
+    margin-bottom: 10px;
+}
+.account-bar{
+    background-color: white;
+    display: inline-block;
+    width: 100%;
+}
+.account-bar-links{
+    margin: 20px auto;
+}
+.searchbox{
+    margin: 20px auto;
+}
+.searchbox .form-control{
+    width: 100%;
+}
+#body-content{
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+#addNewPostFrom{
+    margin: 50px auto;
+    width: 100%;
+    max-width: 640px;
+    text-align: left;
+}
